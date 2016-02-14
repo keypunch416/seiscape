@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/haunma/geda/seiscape/seiscape.sch</source>
+    <date>Sat 28 Nov 2015 08:04:40 PM PST</date>
+    <tool>Eeschema no-vcs-found-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SeisCape</title>
+        <company/>
+        <rev>A</rev>
+        <date>26 Nov 2014</date>
+        <source>seiscape.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R31">
+      <value>255k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC081</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>BBB-P8</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x23</footprint>
+      <libsource lib="seiscape-cache" part="BBB-P8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC08D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0A8</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0AB</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0B0</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0B2</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0B4</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0B5</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0BA</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0BB</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0BD</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>10u</value>
+      <footprint>kicad-fp:Sumida_CDRG5D28RHP</footprint>
+      <fields>
+        <field name="Comment">Sumida CDRH5D28RHPNP-100MC</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0C5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DFLS130L</value>
+      <footprint>kicad-fp:PowerDI123</footprint>
+      <libsource lib="seiscape-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0C6</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0C7</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0C8</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>330n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0CA</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0CE</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>15k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0D1</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>33p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0D3</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DFLS130L</value>
+      <footprint>kicad-fp:PowerDI123</footprint>
+      <libsource lib="seiscape-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0D6</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0D7</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>33p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0D8</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>115k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0D9</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>7.15k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0DA</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0DC</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>BBB-P9</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x23</footprint>
+      <libsource lib="seiscape-cache" part="BBB-P9"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0DF</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>150k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0E4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0ED</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>47u</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0EE</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0F0</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0F1</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>ADP7118AUJZ-5.0</value>
+      <footprint>SMD_Packages:SOT-23-5</footprint>
+      <libsource lib="seiscape-cache" part="ADP7118"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0F5</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>ADP7182AUJZ</value>
+      <footprint>SMD_Packages:SOT-23-5</footprint>
+      <libsource lib="seiscape-cache" part="ADP7182"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0F6</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0C1</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0C2</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ADR445ARMZ</value>
+      <footprint>SMD_Packages:MSOP-8</footprint>
+      <libsource lib="seiscape-cache" part="ADR445"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0BF</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0B9</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AD7175-2</value>
+      <footprint>kicad-fp:TSSOP24</footprint>
+      <libsource lib="seiscape-cache" part="AD7175-2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0A7</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0B3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NC7SZ04-P5X</value>
+      <footprint>kicad-fp:SC70</footprint>
+      <libsource lib="seiscape-cache" part="NC7SZ04-M5X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0A6</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0A9</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>150k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC096</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>DNI</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC095</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TPS27082L-DDC</value>
+      <footprint>kicad-fp:TI_DDC_6</footprint>
+      <libsource lib="seiscape-cache" part="TPS27082L-DDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC091</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ASVTX-09-14.4MHZ</value>
+      <footprint>kicad-fp:Abracon_ASVTX09</footprint>
+      <libsource lib="seiscape-cache" part="ABLNO-V-xxx"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0AE</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>330n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0C9</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0CC</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>10u</value>
+      <footprint>kicad-fp:Eaton_DRQ74</footprint>
+      <fields>
+        <field name="Comment">Coiltronics DRQ74-100</field>
+      </fields>
+      <libsource lib="seiscape-cache" part="DRQ_inductors"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0F2</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>LT3471</value>
+      <footprint>kicad-fp:DFN10_thermal</footprint>
+      <libsource lib="seiscape-cache" part="LT3471"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC0C3</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>6.8</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC076</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC45D</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>6.8</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AC8B0</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547ACA3F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547ACC3A</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547ACD0B</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547ACD1B</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547ACDE8</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ADP7182AUJZ-2.5</value>
+      <footprint>SMD_Packages:SOT-23-5</footprint>
+      <libsource lib="seiscape-cache" part="ADP7182"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AD04D</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>340k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AD172</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>30.1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AD29E</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>200k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AD46D</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AD478</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k DNI</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AD7D4</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>470n DNI</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AD7F8</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>30.1k DNI</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547ADB16</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>47n DNI</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547ADB35</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AE034</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AE03F</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AF050</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AF060</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AF75E</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k NTC</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B0075</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>B+</value>
+      <footprint>kicad-fp:Keystone54_BattClip</footprint>
+      <libsource lib="device" part="TST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B038C</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>B-</value>
+      <footprint>kicad-fp:Keystone54_BattClip</footprint>
+      <libsource lib="device" part="TST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B03BD</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>DNI</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B61EB</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>DNI</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B6206</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>47u DNI</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B6369</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>47u DNI</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B6374</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>10u DNI</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B63D3</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>10u DNI</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B63ED</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>ADP7118AUJZ-2.5</value>
+      <footprint>SMD_Packages:SOT-23-5</footprint>
+      <libsource lib="seiscape-cache" part="ADP7118"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547AD042</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B7058</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B7271</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B7299</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B7C8F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B7CB8</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B7F85</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B7F90</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B8506</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B910D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B99A3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B99E5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B9E12</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B9E6D</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>24C256</value>
+      <footprint>kicad-fp:TSSOP8</footprint>
+      <libsource lib="seiscape-cache" part="24C256"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B881E</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>5.6k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B8C0D</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>5.6k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B8C4A</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547B9AC0</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>SN65HVD266</value>
+      <footprint>SMD_Packages:SOIC-8-W</footprint>
+      <libsource lib="seiscape-cache" part="SN65HVD267"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547E8889</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547E88A0</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547E88B9</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547E9363</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547EBA8B</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547EBDAC</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547EBDBC</tstamp>
+    </comp>
+    <comp ref="JP7">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547EBDCC</tstamp>
+    </comp>
+    <comp ref="JP9">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547EBDDC</tstamp>
+    </comp>
+    <comp ref="JP12">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547EBDF2</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547FEDE0</tstamp>
+    </comp>
+    <comp ref="JP13">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547FF7DC</tstamp>
+    </comp>
+    <comp ref="JP14">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>547FF9CF</tstamp>
+    </comp>
+    <comp ref="JP15">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>548292BA</tstamp>
+    </comp>
+    <comp ref="JP16">
+      <value>JUMPER</value>
+      <footprint>kicad-fp:Solder_Bridge</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5482A239</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>ZXMN2A01FTA</value>
+      <footprint>SMD_Packages:SOT-23-GDS</footprint>
+      <libsource lib="seiscape-cache" part="MOSFET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5487C9F0</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5487CA02</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="seiscape-cache" part="RESISTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5487CCB6</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>548927BC</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>548927C7</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>548928EF</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="seiscape-cache" part="CAPACITOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54892D7F</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>MMZ1608B102CTA00</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555141E9</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>MMZ1608B102CTA00</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55515A32</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>GPS timepulse</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555186E8</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>BBB TP5/6/7/8</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x02</footprint>
+      <libsource lib="conn" part="CONN_02X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5551A558</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Combicon MC 3.5mm</value>
+      <footprint>kicad-fp:COMBICON_MC_3p50_1x08</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5551B893</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CAN</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5551CAB1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="JUMPER">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TST">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">TST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X02">
+      <footprints>
+        <fp>Pin_Header_Straight_2X02</fp>
+        <fp>Pin_Header_Angled_2X02</fp>
+        <fp>Socket_Strip_Straight_2X02</fp>
+        <fp>Socket_Strip_Angled_2X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="24C256">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24C256</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="ABLNO-V-xxx">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ABLNO-V-xxx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VC" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CLK" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="AD7175-2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD7175-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AIN4" type="passive"/>
+        <pin num="2" name="REF-" type="passive"/>
+        <pin num="3" name="REF+" type="passive"/>
+        <pin num="4" name="REFOUT" type="passive"/>
+        <pin num="5" name="REGCAPA" type="passive"/>
+        <pin num="6" name="AVSS" type="power_in"/>
+        <pin num="7" name="AVDD1" type="power_in"/>
+        <pin num="8" name="AVDD2" type="power_in"/>
+        <pin num="9" name="XTAL1" type="passive"/>
+        <pin num="10" name="CLKIO" type="input"/>
+        <pin num="11" name="DOUT/~RDY" type="output"/>
+        <pin num="12" name="DIN" type="input"/>
+        <pin num="13" name="SCLK" type="input"/>
+        <pin num="14" name="~CS" type="input"/>
+        <pin num="15" name="~SYNC" type="input"/>
+        <pin num="16" name="IOVDD" type="power_in"/>
+        <pin num="17" name="DGND" type="power_in"/>
+        <pin num="18" name="REGCAPD" type="passive"/>
+        <pin num="19" name="GPIO0" type="output"/>
+        <pin num="20" name="GPIO1" type="output"/>
+        <pin num="21" name="AIN0" type="passive"/>
+        <pin num="22" name="AIN1" type="passive"/>
+        <pin num="23" name="AIN2" type="passive"/>
+        <pin num="24" name="AIN3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="ADP7118">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADP7118</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="ADJ" type="passive"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="ADP7182">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADP7182</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="ADJ" type="passive"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="ADR445">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADR445</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TP" type="NotConnected"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="TRIM" type="passive"/>
+        <pin num="6" name="VOUT" type="power_out"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="TP" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="BBB-P8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BBB-P8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="P1.6" type="input"/>
+        <pin num="4" name="P1.7" type="input"/>
+        <pin num="5" name="P1.2" type="input"/>
+        <pin num="6" name="P1.3" type="input"/>
+        <pin num="7" name="TIMER4" type="input"/>
+        <pin num="8" name="TIMER7" type="input"/>
+        <pin num="9" name="TIMER5" type="input"/>
+        <pin num="10" name="TIMER6" type="input"/>
+        <pin num="11" name="P1.13" type="input"/>
+        <pin num="12" name="P1.12" type="input"/>
+        <pin num="13" name="PWM2B" type="input"/>
+        <pin num="14" name="P0.26" type="input"/>
+        <pin num="15" name="P1.15" type="input"/>
+        <pin num="16" name="P1.14" type="input"/>
+        <pin num="17" name="P0.27" type="input"/>
+        <pin num="18" name="P2.1" type="input"/>
+        <pin num="19" name="PWM2A" type="input"/>
+        <pin num="20" name="P1.31" type="input"/>
+        <pin num="21" name="P1.30" type="input"/>
+        <pin num="22" name="P1.5" type="input"/>
+        <pin num="23" name="P1.4" type="input"/>
+        <pin num="24" name="P1.1" type="input"/>
+        <pin num="25" name="P1.0" type="input"/>
+        <pin num="26" name="P1.29" type="input"/>
+        <pin num="27" name="P2.22" type="input"/>
+        <pin num="28" name="P2.24" type="input"/>
+        <pin num="29" name="P2.23" type="input"/>
+        <pin num="30" name="P2.25" type="input"/>
+        <pin num="31" name="~U5_CTS" type="input"/>
+        <pin num="32" name="~U5_RTS" type="input"/>
+        <pin num="33" name="~U4_RTS" type="input"/>
+        <pin num="34" name="~U3_RTS" type="input"/>
+        <pin num="35" name="~U4_CTS" type="input"/>
+        <pin num="36" name="~U3_CTS" type="input"/>
+        <pin num="37" name="U5_TXD" type="input"/>
+        <pin num="38" name="U5_RXD" type="input"/>
+        <pin num="39" name="P2.12" type="input"/>
+        <pin num="40" name="P2.13" type="input"/>
+        <pin num="41" name="P2.10" type="input"/>
+        <pin num="42" name="P2.11" type="input"/>
+        <pin num="43" name="P2.8" type="input"/>
+        <pin num="44" name="P2.9" type="input"/>
+        <pin num="45" name="P2.6" type="input"/>
+        <pin num="46" name="P2.7" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="BBB-P9">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BBB-P9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="3V3B" type="power_out"/>
+        <pin num="4" name="3V3B" type="power_out"/>
+        <pin num="5" name="VDD_5V" type="power_in"/>
+        <pin num="6" name="VDD_5V" type="power_in"/>
+        <pin num="7" name="SYS_5V" type="power_out"/>
+        <pin num="8" name="SYS_5V" type="power_out"/>
+        <pin num="9" name="PWR_BTN" type="input"/>
+        <pin num="10" name="~SYS_RESET" type="input"/>
+        <pin num="11" name="U4_RXD" type="input"/>
+        <pin num="12" name="P1.28" type="input"/>
+        <pin num="13" name="U4_TXD" type="input"/>
+        <pin num="14" name="PWM1A" type="input"/>
+        <pin num="15" name="P1.16" type="input"/>
+        <pin num="16" name="PWM1B" type="input"/>
+        <pin num="17" name="I2C1_SCL" type="input"/>
+        <pin num="18" name="I2C1_SDA" type="input"/>
+        <pin num="19" name="I2C2_SCL" type="input"/>
+        <pin num="20" name="I2C2_SDA" type="input"/>
+        <pin num="21" name="U2_TXD" type="input"/>
+        <pin num="22" name="U2_RXD" type="input"/>
+        <pin num="23" name="P1.17" type="input"/>
+        <pin num="24" name="U1_TXD" type="input"/>
+        <pin num="25" name="P3.21" type="input"/>
+        <pin num="26" name="U1_RXD" type="input"/>
+        <pin num="27" name="P3.19" type="input"/>
+        <pin num="28" name="SPI1_CS0" type="input"/>
+        <pin num="29" name="SPI1_D0" type="input"/>
+        <pin num="30" name="SPI1_D1" type="input"/>
+        <pin num="31" name="SPI1_SCLK" type="input"/>
+        <pin num="32" name="VADC" type="input"/>
+        <pin num="33" name="AIN4" type="passive"/>
+        <pin num="34" name="AGND" type="passive"/>
+        <pin num="35" name="AIN6" type="passive"/>
+        <pin num="36" name="AIN5" type="passive"/>
+        <pin num="37" name="AIN2" type="passive"/>
+        <pin num="38" name="AIN3" type="passive"/>
+        <pin num="39" name="AIN0" type="passive"/>
+        <pin num="40" name="AIN1" type="passive"/>
+        <pin num="41" name="C2/P3.20" type="input"/>
+        <pin num="42" name="P0.7/3.18" type="input"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="GND" type="power_in"/>
+        <pin num="45" name="GND" type="power_in"/>
+        <pin num="46" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="CAPACITOR">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPACITOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="DIODESCH">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="DRQ_inductors">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">DRQ_inductors</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="LT3471">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3471</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB1N" type="input"/>
+        <pin num="2" name="FB1P" type="input"/>
+        <pin num="3" name="VREF" type="input"/>
+        <pin num="4" name="FB2P" type="input"/>
+        <pin num="5" name="FB2N" type="input"/>
+        <pin num="6" name="SW2" type="input"/>
+        <pin num="7" name="SS2/~SHDN" type="input"/>
+        <pin num="8" name="VIN" type="input"/>
+        <pin num="9" name="SS1/~SHDN" type="input"/>
+        <pin num="10" name="SW1" type="input"/>
+        <pin num="11" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="MOS_N">
+      <aliases>
+        <alias>MOSFET_N</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="NC7SZ04-M5X">
+      <footprints>
+        <fp>sot23-5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NC7SZ04-M5X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="RESISTOR">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="SN65HVD267">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN65HVD267</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="BiDi"/>
+        <pin num="5" name="FAULT" type="BiDi"/>
+        <pin num="6" name="CANL" type="input"/>
+        <pin num="7" name="CANH" type="power_in"/>
+        <pin num="8" name="S" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="seiscape-cache" part="TPS27082L-DDC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS27082L-DDC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="R1C1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="seiscape-cache">
+      <uri>/home/haunma/geda/seiscape/seiscape-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad1)">
+      <node ref="L2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U10" pin="10"/>
+    </net>
+    <net code="2" name="Net-(C34-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C34-Pad2)">
+      <node ref="FB1" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C53-Pad1)">
+      <node ref="C53" pin="1"/>
+      <node ref="U10" pin="6"/>
+      <node ref="L4" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C51-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="6" name="Net-(C50-Pad1)">
+      <node ref="L4" pin="4"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C51" pin="1"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C50" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="8" name="Net-(P3-Pad20)">
+      <node ref="P3" pin="20"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="9" name="Net-(C42-Pad2)">
+      <node ref="U10" pin="2"/>
+      <node ref="U10" pin="3"/>
+      <node ref="R26" pin="1"/>
+      <node ref="C42" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C13-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C6-Pad2)">
+      <node ref="U3" pin="21"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C12-Pad1)">
+      <node ref="U3" pin="22"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C33-Pad1)">
+      <node ref="C33" pin="1"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C52-Pad2)">
+      <node ref="C52" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C46-Pad1)">
+      <node ref="U11" pin="5"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C46" pin="1"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R28-Pad2)">
+      <node ref="U12" pin="4"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R20-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="18" name="Net-(R35-Pad2)">
+      <node ref="R36" pin="1"/>
+      <node ref="U11" pin="4"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="19" name="+2.5V">
+      <node ref="C35" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="20" name="Net-(C37-Pad2)">
+      <node ref="U8" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="21" name="Net-(C36-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C36" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C47-Pad1)">
+      <node ref="U11" pin="3"/>
+      <node ref="C47" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C39-Pad2)">
+      <node ref="U9" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C39" pin="2"/>
+    </net>
+    <net code="24" name="Net-(P3-Pad14)">
+      <node ref="P3" pin="14"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="26" name="Net-(P3-Pad30)">
+      <node ref="U3" pin="12"/>
+      <node ref="P3" pin="30"/>
+    </net>
+    <net code="27" name="Net-(P3-Pad31)">
+      <node ref="U3" pin="13"/>
+      <node ref="P3" pin="31"/>
+    </net>
+    <net code="28" name="Net-(P3-Pad27)">
+      <node ref="P3" pin="27"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="29" name="Net-(C49-Pad1)">
+      <node ref="U12" pin="3"/>
+      <node ref="U12" pin="2"/>
+      <node ref="R34" pin="1"/>
+      <node ref="C49" pin="1"/>
+    </net>
+    <net code="30" name="Net-(C53-Pad2)">
+      <node ref="D2" pin="1"/>
+      <node ref="L4" pin="2"/>
+      <node ref="C53" pin="2"/>
+    </net>
+    <net code="31" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="32" name="Net-(C23-Pad2)">
+      <node ref="R12" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="33" name="Net-(P3-Pad19)">
+      <node ref="R16" pin="2"/>
+      <node ref="P3" pin="19"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="34" name="-15V">
+      <node ref="P1" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="C52" pin="1"/>
+      <node ref="U12" pin="5"/>
+      <node ref="C48" pin="1"/>
+    </net>
+    <net code="35" name="Net-(FB2-Pad1)">
+      <node ref="FB2" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="36" name="Net-(FB1-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="FB1" pin="1"/>
+    </net>
+    <net code="37" name="+15V">
+      <node ref="U4" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="38" name="Net-(P1-Pad7)">
+      <node ref="R4" pin="1"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="39" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="40" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="41" name="Net-(P1-Pad8)">
+      <node ref="R2" pin="1"/>
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="42" name="cape_en">
+      <node ref="R13" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R10" pin="1"/>
+      <node ref="JP16" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="JP15" pin="1"/>
+    </net>
+    <net code="43" name="Net-(C14-Pad2)">
+      <node ref="U3" pin="23"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="44" name="Net-(P2-Pad10)">
+      <node ref="P2" pin="10"/>
+    </net>
+    <net code="45" name="Net-(P2-Pad17)">
+      <node ref="P2" pin="17"/>
+    </net>
+    <net code="46" name="Net-(P2-Pad13)">
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="47" name="Net-(P2-Pad11)">
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="48" name="Net-(P2-Pad5)">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="49" name="Net-(P2-Pad3)">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="50" name="Net-(P2-Pad4)">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="51" name="Net-(P2-Pad6)">
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="52" name="Net-(P2-Pad8)">
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="53" name="Net-(P2-Pad19)">
+      <node ref="P2" pin="19"/>
+    </net>
+    <net code="54" name="Net-(P2-Pad12)">
+      <node ref="P2" pin="12"/>
+    </net>
+    <net code="55" name="Net-(P2-Pad14)">
+      <node ref="P2" pin="14"/>
+    </net>
+    <net code="56" name="Net-(P2-Pad16)">
+      <node ref="P2" pin="16"/>
+    </net>
+    <net code="57" name="Net-(P2-Pad18)">
+      <node ref="P2" pin="18"/>
+    </net>
+    <net code="58" name="Net-(P2-Pad20)">
+      <node ref="P2" pin="20"/>
+    </net>
+    <net code="59" name="Net-(P2-Pad22)">
+      <node ref="P2" pin="22"/>
+    </net>
+    <net code="60" name="Net-(P2-Pad24)">
+      <node ref="P2" pin="24"/>
+    </net>
+    <net code="61" name="Net-(P2-Pad26)">
+      <node ref="P2" pin="26"/>
+    </net>
+    <net code="62" name="Net-(P2-Pad35)">
+      <node ref="P2" pin="35"/>
+    </net>
+    <net code="63" name="Net-(P2-Pad43)">
+      <node ref="P2" pin="43"/>
+    </net>
+    <net code="64" name="Net-(P2-Pad41)">
+      <node ref="P2" pin="41"/>
+    </net>
+    <net code="65" name="Net-(P2-Pad39)">
+      <node ref="P2" pin="39"/>
+    </net>
+    <net code="66" name="Net-(P2-Pad37)">
+      <node ref="P2" pin="37"/>
+    </net>
+    <net code="67" name="Net-(P2-Pad28)">
+      <node ref="P2" pin="28"/>
+    </net>
+    <net code="68" name="Net-(P2-Pad33)">
+      <node ref="P2" pin="33"/>
+    </net>
+    <net code="69" name="Net-(P2-Pad31)">
+      <node ref="P2" pin="31"/>
+    </net>
+    <net code="70" name="Net-(P2-Pad29)">
+      <node ref="P2" pin="29"/>
+    </net>
+    <net code="71" name="Net-(P2-Pad27)">
+      <node ref="P2" pin="27"/>
+    </net>
+    <net code="72" name="Net-(P2-Pad25)">
+      <node ref="P2" pin="25"/>
+    </net>
+    <net code="73" name="Net-(P2-Pad23)">
+      <node ref="P2" pin="23"/>
+    </net>
+    <net code="74" name="Net-(P2-Pad21)">
+      <node ref="P2" pin="21"/>
+    </net>
+    <net code="75" name="Net-(P3-Pad21)">
+      <node ref="P3" pin="21"/>
+    </net>
+    <net code="76" name="Net-(P3-Pad22)">
+      <node ref="P3" pin="22"/>
+    </net>
+    <net code="77" name="Net-(P3-Pad18)">
+      <node ref="P3" pin="18"/>
+    </net>
+    <net code="78" name="Net-(P3-Pad16)">
+      <node ref="P3" pin="16"/>
+    </net>
+    <net code="79" name="Net-(P3-Pad12)">
+      <node ref="P3" pin="12"/>
+    </net>
+    <net code="80" name="Net-(P3-Pad9)">
+      <node ref="P3" pin="9"/>
+    </net>
+    <net code="81" name="Net-(P3-Pad11)">
+      <node ref="P3" pin="11"/>
+    </net>
+    <net code="82" name="Net-(P3-Pad13)">
+      <node ref="P3" pin="13"/>
+    </net>
+    <net code="83" name="Net-(P3-Pad17)">
+      <node ref="P3" pin="17"/>
+    </net>
+    <net code="84" name="Net-(P3-Pad32)">
+      <node ref="P3" pin="32"/>
+    </net>
+    <net code="85" name="Net-(P3-Pad23)">
+      <node ref="P3" pin="23"/>
+    </net>
+    <net code="86" name="Net-(P3-Pad25)">
+      <node ref="P3" pin="25"/>
+    </net>
+    <net code="87" name="Net-(P3-Pad33)">
+      <node ref="P3" pin="33"/>
+    </net>
+    <net code="88" name="Net-(P3-Pad35)">
+      <node ref="P3" pin="35"/>
+    </net>
+    <net code="89" name="Net-(P3-Pad37)">
+      <node ref="P3" pin="37"/>
+    </net>
+    <net code="90" name="Net-(P3-Pad39)">
+      <node ref="P3" pin="39"/>
+    </net>
+    <net code="91" name="Net-(P2-Pad46)">
+      <node ref="P2" pin="46"/>
+    </net>
+    <net code="92" name="Net-(P2-Pad30)">
+      <node ref="P2" pin="30"/>
+    </net>
+    <net code="93" name="Net-(P2-Pad32)">
+      <node ref="P2" pin="32"/>
+    </net>
+    <net code="94" name="Net-(P2-Pad34)">
+      <node ref="P2" pin="34"/>
+    </net>
+    <net code="95" name="Net-(P2-Pad36)">
+      <node ref="P2" pin="36"/>
+    </net>
+    <net code="96" name="Net-(P2-Pad38)">
+      <node ref="P2" pin="38"/>
+    </net>
+    <net code="97" name="Net-(P2-Pad40)">
+      <node ref="P2" pin="40"/>
+    </net>
+    <net code="98" name="Net-(P2-Pad42)">
+      <node ref="P2" pin="42"/>
+    </net>
+    <net code="99" name="Net-(P2-Pad44)">
+      <node ref="P2" pin="44"/>
+    </net>
+    <net code="100" name="Net-(JP12-Pad1)">
+      <node ref="JP2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U3" pin="10"/>
+      <node ref="JP12" pin="1"/>
+    </net>
+    <net code="101" name="Net-(P3-Pad5)">
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="102" name="Net-(P3-Pad6)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="103" name="Net-(P3-Pad42)">
+      <node ref="P3" pin="42"/>
+    </net>
+    <net code="104" name="Net-(P3-Pad40)">
+      <node ref="P3" pin="40"/>
+    </net>
+    <net code="105" name="Net-(P3-Pad38)">
+      <node ref="P3" pin="38"/>
+    </net>
+    <net code="106" name="Net-(P3-Pad36)">
+      <node ref="P3" pin="36"/>
+    </net>
+    <net code="107" name="Net-(P3-Pad34)">
+      <node ref="P3" pin="34"/>
+    </net>
+    <net code="108" name="timer4">
+      <node ref="JP3" pin="2"/>
+      <node ref="P2" pin="7"/>
+      <node ref="JP14" pin="2"/>
+    </net>
+    <net code="109" name="timer5">
+      <node ref="P2" pin="9"/>
+      <node ref="JP5" pin="2"/>
+    </net>
+    <net code="110" name="tclkin">
+      <node ref="JP2" pin="2"/>
+      <node ref="P3" pin="41"/>
+    </net>
+    <net code="111" name="pru0_3">
+      <node ref="JP12" pin="2"/>
+      <node ref="P3" pin="28"/>
+    </net>
+    <net code="112" name="dcan1_rx">
+      <node ref="R17" pin="2"/>
+      <node ref="P3" pin="24"/>
+    </net>
+    <net code="113" name="dcan1_tx">
+      <node ref="U6" pin="1"/>
+      <node ref="P3" pin="26"/>
+    </net>
+    <net code="114" name="Net-(JP3-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="JP5" pin="1"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="JP9" pin="1"/>
+      <node ref="Q1" pin="D"/>
+      <node ref="JP7" pin="1"/>
+    </net>
+    <net code="115" name="Net-(R17-Pad1)">
+      <node ref="U6" pin="4"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="116" name="+5V">
+      <node ref="P3" pin="7"/>
+      <node ref="P3" pin="8"/>
+      <node ref="U6" pin="3"/>
+      <node ref="L2" pin="2"/>
+      <node ref="L4" pin="3"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C30" pin="2"/>
+    </net>
+    <net code="117" name="Net-(JP15-Pad2)">
+      <node ref="P3" pin="10"/>
+      <node ref="JP15" pin="2"/>
+    </net>
+    <net code="118" name="Net-(JP16-Pad2)">
+      <node ref="P3" pin="15"/>
+      <node ref="JP16" pin="2"/>
+    </net>
+    <net code="119" name="Net-(P3-Pad3)">
+      <node ref="U5" pin="4"/>
+      <node ref="P3" pin="3"/>
+      <node ref="P3" pin="4"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="120" name="AVSS">
+      <node ref="C3" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C45" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C22" pin="2"/>
+    </net>
+    <net code="121" name="pru1_0">
+      <node ref="JP7" pin="2"/>
+      <node ref="P2" pin="45"/>
+    </net>
+    <net code="122" name="+3.3V">
+      <node ref="C23" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="123" name="pru_ecap0">
+      <node ref="P2" pin="15"/>
+      <node ref="JP13" pin="2"/>
+      <node ref="JP9" pin="2"/>
+    </net>
+    <net code="124" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C42" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="Q1" pin="S"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C31" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U12" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="P8" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P5" pin="3"/>
+      <node ref="U3" pin="17"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C41" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="P3" pin="43"/>
+      <node ref="P3" pin="44"/>
+      <node ref="P3" pin="45"/>
+      <node ref="P3" pin="46"/>
+      <node ref="C17" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U10" pin="11"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="125" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="126" name="Net-(C21-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="127" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="128" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="129" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="130" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="131" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="132" name="Net-(C43-Pad2)">
+      <node ref="R25" pin="1"/>
+      <node ref="U10" pin="9"/>
+      <node ref="C43" pin="2"/>
+    </net>
+    <net code="133" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="134" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="135" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="136" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="137" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="138" name="Net-(C26-Pad2)">
+      <node ref="C26" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="139" name="Net-(C24-Pad2)">
+      <node ref="U3" pin="5"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C24" pin="2"/>
+    </net>
+    <net code="140" name="Net-(C44-Pad1)">
+      <node ref="U10" pin="7"/>
+      <node ref="C44" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="141" name="Net-(C18-Pad2)">
+      <node ref="U3" pin="3"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="142" name="Net-(U7-Pad7)">
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="143" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="144" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="145" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="146" name="Net-(P7-Pad3)">
+      <node ref="P7" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="147" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1"/>
+      <node ref="Q1" pin="G"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="148" name="Net-(C15-Pad2)">
+      <node ref="U3" pin="24"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="149" name="Net-(JP13-Pad1)">
+      <node ref="JP13" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="JP14" pin="1"/>
+      <node ref="P3" pin="29"/>
+    </net>
+    <net code="150" name="/TS">
+      <node ref="P5" pin="4"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="151" name="/BAT">
+      <node ref="P4" pin="1"/>
+      <node ref="P5" pin="2"/>
+      <node ref="P5" pin="1"/>
+    </net>
+  </nets>
+</export>
