@@ -3,6 +3,7 @@
 *.lo
 *.o
 *.obj
+*.dtbo
 
 # Precompiled Headers
 *.gch
@@ -23,6 +24,5 @@
 *.lib
 
 # Executables
-*.exe
-*.out
-*.app
+*.bin
+seiscape

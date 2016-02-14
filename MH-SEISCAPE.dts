@@ -1,0 +1,95 @@
+/dts-v1/; 
+/plugin/; 
+
+/ { 
+    compatible = "ti,beaglebone", "ti,beaglebone-black", "ti,beaglebone-green"; 
+    part-number = "MH-SEISCAPE"; 
+    version = "00A0"; 
+    exclusive-use = "P8.7", "P8.9", "P9.14", "P9.27", "P9.29",
+                    "P9.30", "P9.31", "P9.41A", "P9.41B",
+                    "ehrpwm1A", "timer4", "timer5";
+
+    fragment@0 {
+        target = <&am33xx_pinmux>;
+        __overlay__ {
+            pru_adc_pins: pinmux_pru_adc_pins {
+            pinctrl-single,pins = <   // all set to slow slew rate
+                0x1a4 0x36  // /SYNC     P9_27 pr1_pru0_pru_r31_5, MODE6 | INPUT  | PU
+                0x194 0x36  // DOUT/RDY  P9_29 pr1_pru0_pru_r31_1, MODE6 | INPUT  | PU
+                0x198 0x4d  // DIN       P9_30 pr1_pru0_pru_r30_2, MODE5 | OUTPUT
+                0x190 0x4d  // SCLK      P9_31 pr1_pru0_pru_r30_0, MODE5 | OUTPUT
+            >;
+            };
+            
+            pwm_tcxo_pins: pinmux_pwm_tcxo_pins {
+            pinctrl-single,pins = <
+                0x048 0x4e  // TCXO VC   P9.14 ehrpwm1a, MODE6 | OUTPUT
+            >;
+            };
+            
+            timer_pins: pinmux_timer_pins {
+            pinctrl-single,pins = <
+                0x090 0x2a  // DOUT/RDY  P8_7 timer4, MODE2 | INPUT
+                0x09c 0x2a  // PPS       P8_9 timer5, MODE2 | INPUT
+                0x1b4 0x2a  // TCXO CLK  P9.41A tclkin,   MODE2 | INPUT
+                // TCLKIN is shared with P9.41B, so set it to GPIO input
+                0x1a8 0x2f  // ---       P9.41B gpio3_20, MODE7 | INPUT
+            >;
+            };
+        };
+    };
+    
+
+    fragment@1 {         // Enable the PRUSS 
+        target = <&pruss>; 
+        __overlay__ { 
+            status = "okay"; 
+        }; 
+    }; 
+ 
+
+    fragment@2 {
+        target = <&epwmss1>;
+        __overlay__ {
+            status = "okay";
+        };
+    };
+
+
+    fragment@3 {
+        target = <&ehrpwm1>;
+        __overlay__ {
+            status = "okay";
+            pinctrl-names = "default";
+            pinctrl-0 = <&pwm_tcxo_pins>;
+        };
+    };
+
+
+    fragment@4 {
+        target = <&ocp>;
+        __overlay__ {
+            test_helper: helper {
+                compatible = "bone-pinmux-helper";
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&pru_adc_pins>;
+            };
+        };
+    };
+
+//    fragment@4 {
+//        target = <&ocp>;
+//        __overlay__ {
+//            pps_gmtimer {
+//                compatible = "pps-gmtimer";
+//                status = "okay";
+//                timer = <&timer5>;
+//                pinctrl-names = "default";
+//                pinctrl-0 = <&timer_pins>;
+//                use-tclkin = <1>;
+//            };
+//        };
+//    };
+};
+
