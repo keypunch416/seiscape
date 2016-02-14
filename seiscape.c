@@ -13,10 +13,13 @@
 
 #include <prussdrv.h>
 #include <pruss_intc_mapping.h>
- 
+
+#include "seiscape_common.h"
+
+
 #define PRU0    0
-#define MMAP0_LOC   "/sys/class/uio/uio0/maps/map0/"
-#define MMAP1_LOC   "/sys/class/uio/uio0/maps/map1/"
+//#define MMAP0_LOC   "/sys/class/uio/uio0/maps/map0/"
+//#define MMAP1_LOC   "/sys/class/uio/uio0/maps/map1/"
 
 // Register access sequences for the AD7175-2 are encoded as a series
 // of variable-length blocks of the form
@@ -39,15 +42,15 @@ const uint8_t init_seq[] = { 3, 0x47, 0x00, 0x00,  // ID
 
  
 // Short function to load a single unsigned int from a sysfs entry
-unsigned int readFileValue(char filename[])
-{
-   FILE* fp;
-   unsigned int value = 0;
-   fp = fopen(filename, "rt");
-   fscanf(fp, "%x", &value);
-   fclose(fp);
-   return value;
-}
+//unsigned int readFileValue(char filename[])
+//{
+//   FILE* fp;
+//   unsigned int value = 0;
+//   fp = fopen(filename, "rt");
+//   fscanf(fp, "%x", &value);
+//   fclose(fp);
+//   return value;
+//}
  
  
 int main()
@@ -66,12 +69,12 @@ int main()
  
    // Read in the location and address of the shared memory. This value changes
    // each time a new block of memory is allocated.
-   unsigned int PRU_data_addr = readFileValue(MMAP0_LOC "addr");
-   printf("-> the PRU memory is mapped at the base address: %x\n", (PRU_data_addr + 0x2000));
+//   unsigned int PRU_data_addr = readFileValue(MMAP0_LOC "addr");
+//   printf("-> the PRU memory is mapped at the base address: %x\n", (PRU_data_addr + 0x2000));
  
-   uint32_t ddr_addr = readFileValue(MMAP1_LOC "addr");
-   uint32_t ddr_size = readFileValue(MMAP1_LOC "size");
-   printf("The DDR External Memory pool has location: 0x%x and size: 0x%x bytes\n", ddr_addr, ddr_size);
+//   uint32_t ddr_addr = readFileValue(MMAP1_LOC "addr");
+//   uint32_t ddr_size = readFileValue(MMAP1_LOC "size");
+//   printf("The DDR External Memory pool has location: 0x%x and size: 0x%x bytes\n", ddr_addr, ddr_size);
  
    // Allocate and initialize memory
    prussdrv_init();
@@ -85,10 +88,6 @@ int main()
    }
 
    // Write the AD7175-2 initialization sequence into PRU0 Data RAM0.
-   // You can edit the value to PRUSS0_PRU1_DATARAM if you wish to
-   // write to PRU1.
-//   unsigned int *tmp = (unsigned int *) init_seq;
-//   prussdrv_pru_write_memory(PRUSS0_PRU0_DATARAM, 0, tmp, sizeof(init_seq));
    memcpy(pru_dataram0, init_seq, sizeof(init_seq));
  
    // Map the PRU's interrupts

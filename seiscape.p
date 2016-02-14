@@ -10,28 +10,27 @@
 //
  
 .setcallreg r29.w0
-.origin 0                        // start of program in PRU memory
+.origin 0                       // start of program in PRU memory
 .entrypoint start
  
-#define PRU0_R31_VEC_VALID 32    // allows notification of program completion
-#define PRU_EVTOUT_0    3        // the event number that is sent back
- 
-#define SCLK_COUNT     500        // Loop count for SCLK half-cycle
- 
+#include "seiscape_common.h"
+
+#define PRU0_R31_VEC_VALID 32   // allows notification of program completion
+#define PRU_EVTOUT_0    3       // the event number that is sent back
+
+#define SCLK_COUNT      500     // Loop count for SCLK half-cycle
+
+
 start:
 
 // Enable the OCP master port -- allows transfer of data to Linux userspace
 LBCO    r0, c4, 4, 4       // load SYSCFG reg into r0 (use c4 const addr)
 CLR     r0, r0, 4          // clear bit 4 (STANDBY_INIT)
 SBCO    r0, c4, 4, 4       // store the modified r0 back at the load addr
- 
+
 MOV     r1, 0x0            // PRU RAM base address
 
-// TEST TEST TEST TEST
-//
 // Reset the AD7175-2 with 64 SCLKS while DIN=1, then wait ~ 1 ms
-//
-// TEST TEST TEST TEST
 SET     r30.t2
 MOV     r18, 64
 next_reset_clk:
@@ -46,7 +45,7 @@ QBNE    waitloop, r20, 0
 
 next_transaction:
 LBBO    r9.b0, r1, 0, 1    // Number of bytes in SPI transaction => r9
-QBEQ    init_done, r9.b0, 0  // Done if this is the terminating null
+QBEQ    start_sampling, r9.b0, 0  // Done if this is the terminating null
 LBBO    r10.b0, r1, 1, 1   // Comms register => r10
 ADD     r1, r1, 2
 
@@ -115,9 +114,12 @@ ADD     r1, r1, 1          // Advance PRU RAM ptr
 QBA     writes             // Go write next byte
 
 
-init_done:
-// Initialization is complete; now collect ADC samples.
-MOV     r11, 0x400         // How many samples to read
+start_sampling:
+// Initialization is complete; now collect ADC samples
+MOV     r1, BUFFER_START
+
+get_new_block:
+MOV     r11, SAMPLES_PER_BLOCK  // How many samples per EVTOUT signal
 
 sample_wait:
 // Wait for READY signal
@@ -158,14 +160,21 @@ QBNE    next_bit_rs2, r18, 0
 SBBO    r17, r1, 0, 4      // Store r17 result into RAM
 ADD     r1, r1, 4          // Advance PRU RAM ptr
 
-// Wait for next sample.
+// Decrement counter and loop until zero
 SUB     r11, r11, 1
 QBNE    sample_wait, r11, 0
 
-done:
-// Program complete; signal host.
+// Done with this block; tell host
+MOV     r2, BUFFER_PTR_SAVE
+SBBO    r1, r2, 0, 4       // Pass dataram ptr to host at special addr
 MOV     r31.b0, PRU0_R31_VEC_VALID | PRU_EVTOUT_0
-HALT
+
+// If dataram ptr has reached the end of the buffer, loop back to
+// "start_sampling" to reset it, otherwise just start the next block.
+MOV     r2, BUFFER_END
+QBLT    get_new_block, r2, r1
+QBA     start_sampling
+
 
 
 
